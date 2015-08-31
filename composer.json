@@ -1,0 +1,17 @@
+{
+    "name": "isaquealves/wishlist-api-wrapper",
+    "description": "Simple wishlist api wrapper",
+    "type": "lib",
+    "require": {
+        "php": ">=5.4",
+        "guzzlehttp/guzzle": "5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Isaque Alves",
+            "email": "isaquealves@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
