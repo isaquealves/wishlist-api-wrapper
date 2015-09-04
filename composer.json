@@ -2,10 +2,16 @@
     "name": "isaquealves/wishlist-api-wrapper",
     "description": "Simple wishlist api wrapper",
     "type": "lib",
+    "autoload":{
+        "psr-0":{ "WishlistWrapper": "src/" }
+    },
     "require": {
         "php": ">=5.4",
         "guzzlehttp/guzzle": "5.3"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+        },
     "license": "MIT",
     "authors": [
         {
